@@ -18,6 +18,10 @@ import ViewScore from "./Components/SingleCourse/Quizes/ViewScore";
 import ViewSubmissions from "./Components/SingleCourse/Assignment/ViewSubmissions";
 import MySubmission from "./Components/SingleCourse/Assignment/MySubmission";
 import AnswerDoubt from "./Components/Doubts/AnswerDoubt";
+
+
+
+
 function App() {
   const [loading, setLoding] = useState(true);
   const [loginStatus, setLoginStatus] = useState(false);
