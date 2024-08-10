@@ -17,6 +17,10 @@ const { resolveAny } = require("dns/promises");
 const flash = require("connect-flash");
 
 app.use(express.static("./public"));
+
+
+
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
